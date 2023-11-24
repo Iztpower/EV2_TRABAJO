@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "class Persona:\n    def __init__(self, nombre_completo, edad, ocupacion):\n        self.nombre_completo = nombre_completo\n        self.edad = edad\n        self.ocupacion = ocupacion\n\n    def presentarse(self):\n        print(f\"Hola, soy {self.nombre_completo}, tengo {self.edad} años y trabajo como {self.ocupacion}.\")\n\n# Crear una instancia de la clase Persona\npersona1 = Persona(\"María González\", 25, \"Ingeniera\")\n\n# Acceder a los atributos y llamar al método de la clase\nprint(f\"Nombre completo: {persona1.nombre_completo}\")\nprint(f\"Edad: {persona1.edad}\")\nprint(f\"Ocupación: {persona1.ocupacion}\")\npersona1.presentarse()\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Nombre completo: María González\nEdad: 25\nOcupación: Ingeniera\nHola, soy María González, tengo 25 años y trabajo como Ingeniera.\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
